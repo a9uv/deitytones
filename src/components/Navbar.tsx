@@ -4,16 +4,12 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { navLinks } from '@/config/navigation';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const navLinks = [
-    { href: "#", label: "Services" },
-    { href: "#", label: "Portfolio" },
-    { href: "#", label: "About" },
-    { href: "#", label: "Contact" },
-  ];
+
 
   return (
     <>

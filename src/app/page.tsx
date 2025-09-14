@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const services = [
   {
@@ -143,6 +144,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <Footer/>
     </main>
   );
 }
