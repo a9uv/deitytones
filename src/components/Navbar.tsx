@@ -19,12 +19,12 @@ export default function Navbar() {
     <>
       <header className="relative z-50 w-full p-6 flex justify-between items-center">
         {/* Logo */}
-        <Link href="/" className="text-2xl font-serif font-bold text-[#4c4c8e]">
+        <Link href="/" className="text-4xl font-serif font-bold text-white-800">
           LNKPR-AH
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-8 text-sm text-gray-300">
+        <nav className="hidden md:flex items-center space-x-8 text-med text-gray-300">
           {navLinks.map((link) => (
             <Link key={link.label} href={link.href} className="hover:text-white transition-colors">
               {link.label}
@@ -58,7 +58,7 @@ export default function Navbar() {
               <Link
                 key={link.label}
                 href={link.href}
-                className="text-2xl font-semibold hover:text-gray-300 transition-colors"
+                className="text-4xl font-semibold hover:text-gray-300 transition-colors"
                 onClick={() => setIsMenuOpen(false)} // Close menu on link click
               >
                 {link.label}

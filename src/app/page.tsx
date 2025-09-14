@@ -5,19 +5,19 @@ const services = [
   {
     title: "Audio (Music & Podcasts)",
     price: "$60.00",
-    description: "Describe important details like price, value, length of service, and why it’s unique. Or use these sections to showcase different key values of your products or services.",
+    description: "Recording, Engineering, Mixing, Mastering.",
     imageUrl: "/service1.png",
   },
   {
     title: "Video Editing",
     price: "$45.00",
-    description: "Describe important details like price, value, length of service, and why it’s unique. Or use these sections to showcase different key values of your products or services.",
+    description: "High quality video editing for music videos, YouTube videos, vlogs, short films and movies, and content.",
     imageUrl: "/service2.png",
   },
   {
     title: "Social Media",
     price: "Reach Out For Pricing",
-    description: "",
+    description: "Reels, Images, Posting Calendar, Content Creation, Social Media Analytics.",
     imageUrl: "/service3.png",
   },
 ];
