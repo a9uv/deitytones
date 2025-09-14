@@ -4,20 +4,20 @@ import Navbar from "@/components/Navbar";
 const services = [
   {
     title: "Audio (Music & Podcasts)",
-    price: "$99.00",
+    price: "$60.00",
     description: "Describe important details like price, value, length of service, and why it’s unique. Or use these sections to showcase different key values of your products or services.",
     imageUrl: "/service1.png",
   },
   {
     title: "Video Editing",
-    price: "$149.00",
+    price: "$45.00",
     description: "Describe important details like price, value, length of service, and why it’s unique. Or use these sections to showcase different key values of your products or services.",
     imageUrl: "/service2.png",
   },
   {
     title: "Social Media",
-    price: "$199.00",
-    description: "Describe important details like price, value, length of service, and why it’s unique. Or use these sections to showcase different key values of your products or services.",
+    price: "Reach Out For Pricing",
+    description: "",
     imageUrl: "/service3.png",
   },
 ];
@@ -41,7 +41,7 @@ export default function HomePage() {
           Discover the Future of Sound Engineering
         </h1>
         <div className="w-full max-w-4xl mb-20">
-          <Image
+                    <Image
             src="/studio_hero.png"
             alt="Modern sound engineering studio"
             width={1024}
