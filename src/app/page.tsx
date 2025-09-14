@@ -29,7 +29,7 @@ export default function HomePage() {
       {/* Background Image Container */}
       <div
         className="absolute inset-0 z-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/ancient_egypt.png')" }}
+        style={{ backgroundImage: "url('/Ancient_Egypt.png')" }}
       >
         <div className="absolute inset-0 bg-black/5"></div>
       </div>
