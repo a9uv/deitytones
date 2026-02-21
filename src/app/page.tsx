@@ -39,12 +39,12 @@ export default function HomePage() {
       {/* Main Content - Hero Section */}
       <div className="relative z-10 flex flex-col flex-grow items-center justify-center text-center px-4 pt-16 pb-32">
         <h1 className="text-5xl font-bold text-[#4c4c8e] mb-8 drop-shadow-md">
-          Discover the Future of Sound Engineering
+          Discover the Future of Multi Media
         </h1>
         <div className="w-full max-w-4xl mb-20">
                     <Image
-            src="/studio_hero.png"
-            alt="Modern sound engineering studio"
+            src="/t_hero_edit.png"
+            alt="T the Pharaoh hero image"
             width={1024}
             height={576}
             className="rounded-lg shadow-2xl"
